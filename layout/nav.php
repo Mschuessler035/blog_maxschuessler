@@ -1,11 +1,20 @@
 <div class="navbar">
 	<div class="navbar-inner">
-		<div class="container">
-			<a href="./" class="brand"><i class=""></i></a>
-			<ul class="nav">
-				<li><a href="./?p=home">Posts</a></li>
-				<li><a href="./?p=form_add_post">Add Post</a></li>
-			</ul>
-		</div>
+		<ul class="nav nav-pills">
+			<li class="active">
+				<a class="brand" href="./?p=admin/list_posts">Project name</a>
+			</li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					Admin
+	       			<b class="caret"></b>
+	     		</a>
+				<ul class="dropdown-menu">
+		    		<!-- links -->
+		    		<li><a href="./?p=admin/form_add_post">Create a Post</a></li>
+		   		</ul>
+		   	</li>
+			<li class="divider-vertical"><a href="./?p=list_posts">Posts</a></li>
+		</ul>
 	</div>
 </div>

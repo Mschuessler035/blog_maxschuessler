@@ -1,9 +1,8 @@
 <?php
-// Use the page in the QS if present
 if(isset($_GET['p'])) {
 	$page = $_GET['p'];
 } else {
-	$page = 'home';
+	$page = 'admin/list_posts';
 }
 
-include("views/public/$page.php");
+include("views/$page.php");
