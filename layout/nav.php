@@ -12,9 +12,10 @@
 				<ul class="dropdown-menu">
 		    		<!-- links -->
 		    		<li><a href="./?p=admin/form_add_post">Create a Post</a></li>
+		    		<li><a href="./?p=admin/list_posts">List of Posts</a></li>
 		   		</ul>
 		   	</li>
-			<li class="divider-vertical"><a href="./?p=list_posts">Posts</a></li>
+			<li class="divider-vertical"><a href="./?p=pbulic_home">Home</a></li>
 		</ul>
 	</div>
 </div>

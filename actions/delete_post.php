@@ -17,6 +17,8 @@ $post = $result->fetch_assoc();
 extract($post);
 
 
+// Construct delete query
+$sql = 'DELETE FROM posts WHERE post_id='.$_GET['id'];
 
 // Execute query
 $conn->query($sql);
@@ -31,7 +33,7 @@ if($conn->error != '') {
 } else {
 	// Message to be displayed on next request
 //	$_SESSION['flash'] = array(
-//			'message' => "<strong>$band_name</strong> was successfully deleted.",
+//			'message' => "<strong>$post_title</strong> was successfully deleted.",
 //			'type'	  => 'info'
 //	);
 
