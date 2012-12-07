@@ -1,5 +1,9 @@
 <?php 
+// Initialize the session
+session_start();
 
+// Load DB constants
+require('config/db.php');
 ?>
 
 <!DOCTYPE html>
