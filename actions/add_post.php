@@ -2,6 +2,8 @@
 	print_r($_POST);
 	extract($_POST);
 	
+	require('../config/db.php');
+	
 	// Connect to the database
 	$conn = new mysqli('localhost',DB_USERNAME,DB_PASSWORD,DB_NAME);
 	
@@ -21,7 +23,7 @@
 		echo '</pre>';
 	} else {
 		// Redirect
-		header('Location:../?p=admin/list_posts');
+//		header('Location:../?p=admin/list_posts');
 	
 	//	$_SESSION['flash'] = array(
 	//			'message' => "Post was successfully added!",

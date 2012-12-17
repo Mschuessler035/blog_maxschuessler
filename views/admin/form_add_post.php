@@ -17,7 +17,7 @@
 	</div>
 	<div class="control-group">
 		<div class="controls">
-			<textarea name="post_text" placeholder="Insert Post Here" ></textarea>
+			<textarea name="post_text" placeholder="Insert Post Information Here" ></textarea>
 		</div>
 	</div>
 	<div class="form-actions">
